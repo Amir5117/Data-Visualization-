@@ -1,0 +1,6 @@
+This project automates the analysis of customer data (e.g., purchase history and browsing behavior) to identify trends and segment customers for targeted marketing campaigns. It uses data processing and clustering techniques to segment customers based on their purchasing habits, time spent browsing, and recency of their last purchase. 
+The goal is to help businesses create personalized marketing strategies for different customer groups.
+I chose this approach because KMeans is fast, scalable, and provides interpretable clusters, making it an excellent choice for segmenting customers based on their behaviors.
+It works well when we have a rough idea of how many groups we want which in case of my project are 3. By including features like purchase history, browsing time, and days since the last purchase, this approach proves to be more trustworthy and provides better view of customer behavior, allowing for better customer segmentation. 
+These features would be extremely helpful in making strategies. Also, since I scaled the data it ensures that all the features will contribute equally to the process of clustering which will lead to a more accurate and well balanced customer segments. 
+Using KMeans also contributed to the code being simple but effective which is beneficial for the stakeholders with non programming background to understand too.
